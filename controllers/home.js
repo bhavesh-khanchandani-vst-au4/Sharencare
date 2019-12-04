@@ -34,8 +34,9 @@ router.get('/create', (req, res) => {
         res.redirect('/login');
     } else{
     res.render("events/addevents", {
-        viewTittle: "Create an event",
-        style: "addevent.css"
+        viewTitle: "Create an event",
+        style: "addevent.css",
+        user: req.session.loggedIn
 
     });
 }
