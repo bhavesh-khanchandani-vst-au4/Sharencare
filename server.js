@@ -9,7 +9,7 @@ const routes = require('./controllers/home');
 const db = require('./models/index.js');
 
 
-var PORT = process.env.PORT | 9090;
+var PORT = process.env.PORT || 9090;
 
 
 app.use(session({
