@@ -1,6 +1,6 @@
 const User = require('./User.js');
 const Event = require('./events.model.js');
-const Join = require('./join.js');
+const Join = require('./Join.js');
 const Donation = require('./Donation.js');
 const mongoose = require('mongoose');
 const Contact = require('./contact.model.js')

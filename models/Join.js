@@ -40,4 +40,7 @@ const joinSchema = new mongoose.Schema({
     }
 });
 console.log(joinSchema);
- mongoose.model('Join', joinSchema);
+ 
+module.exports = mongoose.model('Join', joinSchema);
+
+ 

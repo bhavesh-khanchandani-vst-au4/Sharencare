@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const Join = mongoose.model('Join')
-require("../models/join.js")
+
 const Event = mongoose.model('Event')
-require("../models/events.model")
+
 
 
 

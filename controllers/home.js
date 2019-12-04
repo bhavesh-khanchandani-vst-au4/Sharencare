@@ -1,10 +1,10 @@
-require("../models/events.model")
-require("../models/join")
+require("./../models/events.model")
+
 const express = require('express');
 var router = express.Router();
 const mongoose = require('mongoose');
 const Event = mongoose.model('Event')
-const Join = mongoose.model('Join')
+const Join = require("./../models/Join")
 
 
 
