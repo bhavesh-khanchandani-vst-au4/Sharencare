@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const Event = mongoose.model('Event')
 const upload = require('../controllers/multer');
-require("./../models/events.model")
+
 require("./../controllers/cloudinary")
 const cloudinary = require('cloudinary').v2
 

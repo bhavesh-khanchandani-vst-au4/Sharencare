@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
 const Donation = mongoose.model('Donation')
-require("../models/Donation.js")
 
 router.post('/', async (req, res) => {
     console.log(req.body);
