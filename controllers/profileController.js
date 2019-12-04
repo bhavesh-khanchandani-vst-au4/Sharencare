@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const Event = mongoose.model('Event')
 const Join = require("./../models/Join")
 const upload = require('../controllers/multer');
-require("./../controllers/cloudinary.JS")
+require("./../controllers/cloudinary")
 const cloudinary = require('cloudinary').v2
 
 
